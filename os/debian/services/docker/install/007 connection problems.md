@@ -48,15 +48,15 @@ volumes:
 ```
 # explained:
 
-server_name `192.168.178.25:9980`  
+server_name = `192.168.178.25:9980`  
 "How users/browser reach Collabora"
 
 
-domain `nextcloud`  
+domain = `nextcloud`  
 "Which WOPI host is allowed"
 
 
-aliasgroup1 `http://nextcloud:80`  
+aliasgroup1 = `http://nextcloud:80`  
 "How Collabora reaches Nextcloud"
 
 
