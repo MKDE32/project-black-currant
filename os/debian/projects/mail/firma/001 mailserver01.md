@@ -66,4 +66,11 @@ cd ~/mailserver
 docker exec -it mailserver setup email add admin@firma.test
 ```
 
+
+```
+nc -vz mail01.firma.test 25
+nc -vz mail01.firma.test 587
+nc -vz mail01.firma.test 993
+```
+
 für dns vorerst in hosts datei eintragen dann thunderbird für den ersten test erproben
