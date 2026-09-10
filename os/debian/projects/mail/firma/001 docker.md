@@ -32,6 +32,7 @@ services:
 
     ports:
       - "25:25"
+      - "143:143"
       - "587:587"
       - "993:993"
 
@@ -46,7 +47,6 @@ services:
       - ENABLE_IMAP=1
       - ENABLE_CLAMAV=0
       - ENABLE_FAIL2BAN=0
-      - SSL_TYPE=self-signed
 
     restart: unless-stopped
 ```
