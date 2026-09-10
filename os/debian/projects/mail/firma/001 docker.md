@@ -65,3 +65,4 @@ cd ~/mailserver
 docker exec -it mailserver setup email add admin@firma.test
 ```
 
+für dns vorerst in hosts datei eintragen
