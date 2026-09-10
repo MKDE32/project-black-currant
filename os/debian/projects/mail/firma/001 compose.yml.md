@@ -2,8 +2,9 @@
 mkdir -p ~/mailserver
 cd ~/mailserver
 ```
-Domain:      firma.test
+Domain:      firma.test  
 Mailserver:  mail01.firma.test
+
 ```
 mkdir -p docker-data/dms/mail-data
 mkdir -p docker-data/dms/mail-state
@@ -48,7 +49,8 @@ services:
 
     restart: unless-stopped
 ```
-
-
-
+```
+docker compose config
+docker compose pull
+```
 
