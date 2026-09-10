@@ -5,6 +5,7 @@ docker compose up
 
 ```
 cd ~/mailserver
+docker exec -it mailserver setup email add admin@firma.test
 ```
 
 
