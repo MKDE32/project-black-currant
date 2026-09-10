@@ -1,5 +1,0 @@
-Linux Hosts Datei
-
-etc/hosts
-
-echo "10.129.128.223 unika.htb" | sudo tee -a /etc/hosts
