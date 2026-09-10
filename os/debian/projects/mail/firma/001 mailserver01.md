@@ -72,5 +72,8 @@ nc -vz mail01.firma.test 25
 nc -vz mail01.firma.test 587
 nc -vz mail01.firma.test 993
 ```
+```
+docker exec -it mailserver setup email add max@firma.test
+```
 
 für dns vorerst in hosts datei eintragen dann thunderbird für den ersten test erproben
