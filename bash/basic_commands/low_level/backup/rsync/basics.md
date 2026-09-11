@@ -25,6 +25,7 @@ rsync -av --delete source/ backup/
 
 # FLAGS
 `-a` full backup  
+`-ǹ` test run
 `-e ssh` use ssh  
 `-v` verbose  
 `-z` compression  
