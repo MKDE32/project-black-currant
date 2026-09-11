@@ -1,3 +1,6 @@
+# REMINDER
+nur abweichende daten werden beim 2. backup kopiert, ganz wichtig!!
+
 # EXAMPLES
 ## BASIC SYNTAX
 ```
