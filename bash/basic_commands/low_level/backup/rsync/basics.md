@@ -23,6 +23,19 @@ rsync -av user@server:/data/ ./data/
 rsync -av --delete source/ backup/
 ```
 
+## LINK DEST
+ist eine möglichkeit alte versionen zu erhalten indem der neue stand in neuem 
+ordner kopiert wird (inkrementelles backup).
+
+```
+rsync -av fotos/ backup/heute/
+rsync -av --link-dest=../heute fotos/ backup/morgen/
+```
+
+
+
+
+
 # FLAGS
 `-a` full backup  
 `-ǹ` test run
