@@ -1,5 +1,6 @@
 # REMINDER
-nur veränderte daten werden beim 2. backup kopiert, ganz wichtig!!
+- nur veränderte daten werden beim 2. backup kopiert, ganz wichtig!!
+- der / entscheidet darüber ob ordner oder inhalt kopiert wird
 
 # EXAMPLES
 ## BASIC SYNTAX
