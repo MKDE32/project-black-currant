@@ -6,8 +6,6 @@ docker exec mailcowdockerized-postfix-mailcow-1 \
 
 mkde@server:~/mailcow-firma2$ docker exec mailcowdockerized-postfix-mailcow-1 \
   bash -c 'mysql -h mysql-mailcow -u mailcow -p"$DBPASS" mailcow -e "SELECT * FROM transports;"'
-ERROR 2026 (HY000): TLS/SSL error: SSL is required, but the server does not support it
-mkde@server:~/mailcow-firma2$ 
 
 docker exec mailcowdockerized-postfix-mailcow-1 \
   postmap -q firma.test \
